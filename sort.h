@@ -22,6 +22,13 @@ typedef struct listint_s
 /* Predefined task function prototypes*/
 void print_array(const int *array, size_t size);
 void print_list(const listint_t *list);
+void swap(listint_t **h, listint_t **node1, listint_t *node2);
+
+
+void l_sort(int *array, size_t size, int left, int right);
+void swap_ints(int *a, int *b);
+int l_partition(int *array, size_t size, int left, int right);
+void quick_sort(int *array, size_t size);
 
 
 /*Self defined function prototypes*/
